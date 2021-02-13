@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <script src="../jscalculator/calc.js"></script>
+        <link rel="stylesheet" href="../jscalculator/calc.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Alexandra Hipolito | Projects - Javascript Calculator</title>
+    </head>
+    
+    <body>
+        <div id="calculator">
+            <div class="top">
+                <input type="text" id="result" value="0" align="right" readonly>
+                <button id="clear" onclick="reset()">C</button>
+                <input type="text" id="display" value="0" align="right" readonly>
+            </div>
+            <div class="keys">
+                <button id="seven" class="number" onclick="input(this.id, this.class)" value="7">7</button>
+                <button id="eight" class="number" onclick="input(this.id, this.class)" value="8">8</button>
+                <button id="nine" class="number" onclick="input(this.id, this.class)" value="9">9</button>
+                <button id="divide" class="operations" onclick="input(this.id, this.class)" value="/">&divide;</button>
+                <button id="four" class="number" onclick="input(this.id, this.class)" value="4">4</button>
+                <button id="five" class="number" onclick="input(this.id, this.class)" value="5">5</button>
+                <button id="six" class="number" onclick="input(this.id, this.class)" value="6">6</button>
+                <button id="multiply" class="operations" onclick="input(this.id, this.class)" value="*">x</button>
+                <button id="one" class="number" onclick="input(this.id, this.class)" value="1">1</button>
+                <button id="two" class="number" onclick="input(this.id, this.class)" value="2">2</button>
+                <button id="three" class="number" onclick="input(this.id, this.class)" value="3">3</button>
+                <button id="minus" class="operations" onclick="input(this.id, this.class)" value="-">&minus;</button>
+                <button id="zero" class="number" onclick="input(this.id, this.class)" value="0">0</button>
+                <button id="decimal" class="number" onclick="input(this.id, this.class)" value=".">.</button>
+                <button id="plus" class="operations" onclick="input(this.id, this.class)" value="+">&#43;</button>
+                <button id="equal" onclick="execute()">=</button><br>
+            </div>
+        </div>
+        <footer class="footer">Designed &amp; coded by <a href="http://alexhippo.github.io" target="_blank">Alexandra Hipolito</a></footer>
+    </body>
+</html>

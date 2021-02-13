@@ -1,0 +1,76 @@
+body {
+    background-image:url(coffee-work-desk-mug-keyboard-162616.jpeg);
+    background-position: top center;
+}
+
+a:link {
+    color:#000;
+}
+
+a:visited {
+    color:#000;
+}
+
+#calculator {
+    width: 280px;
+    height: auto;
+    border-radius:20px; 
+    margin: 100px auto;
+	padding: 20px 20px 20px;
+    background: #535353;
+    box-shadow: inset -2px -2px 10px #000000;
+}
+
+button {
+    width:60px;
+    height:40px;
+    margin-top:15px;
+    margin-left:5px;
+    border-radius:5px;
+    background:#eeeeee;
+    font-family: 'Roboto', sans-serif;
+    font-size:25px;
+}
+
+#result {
+    width:270px;
+    height:40px;
+    background:#C0D1BF;
+    color:black;
+    font-family:monospace;
+    font-size:35px;
+    margin-left:5px;
+    margin-top:5px;
+    border-radius:5px;
+    text-align:right;
+}
+
+#display {
+    width:200px;
+    margin-left:5px;
+    background:#C0D1BF;
+    color:black;
+    font-family:monospace;
+    font-size:15px;
+    margin-bottom:15px;
+    border-radius:5px;
+    text-align:right;
+}
+
+#clear {
+    background-color: #eeeeee;
+    font-size:15px;
+    height:25px;
+    margin-top:3px;
+}
+
+#equal {
+    background-color:#DE9547;
+    border-color:#DE9547;
+}
+
+.footer {
+    width:100%;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+}
