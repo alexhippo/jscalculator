@@ -6,6 +6,6 @@ This was built as a project whilst undertaking [freeCodeCamp's Legacy Front End 
 ---
 **See this project live**
 
-https://alexhippo.github.io/projects/jscalculator/
+https://alexhippo.github.io/jscalculator/
 
 ---
